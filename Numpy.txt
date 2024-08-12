@@ -1,0 +1,57 @@
+Open In Colab
+
+import numpy as np
+     
+
+a = np.array([1,2,3])
+b = np.array([(1.5,2,3), (4,5,6)], dtype = float)
+c = np.array([[(1.5,2,3), (4,5,6)], [(3,2,1), (4,5,6)]],dtype = float)
+     
+
+a
+     
+array([1, 2, 3])
+
+b
+     
+array([[1.5, 2. , 3. ],
+       [4. , 5. , 6. ]])
+
+d = np.array([4,5,6])
+     
+
+e = a+d
+     
+
+e
+
+     
+array([5, 7, 9])
+
+ f = b = np.array([(5,2,3), (13,5,6)], dtype = float)
+     
+
+g = b + f
+
+     
+
+g
+     
+array([[10.,  4.,  6.],
+       [26., 10., 12.]])
+
+a.sort()
+     
+
+a
+
+     
+array([1, 2, 3])
+
+g.sort()
+     
+
+g
+     
+array([[ 4.,  6., 10.],
+       [10., 12., 26.]])
